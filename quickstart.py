@@ -16,7 +16,7 @@ openrouter_gemini = OpenAIChatCompletionClient(
     base_url="https://openrouter.ai/api/v1",
     api_key=key,
     model_info=ModelInfo(
-        vision=False, function_calling=True, json_output=False, family="unknown"
+        vision=False, function_calling=True, json_output=True, family="unknown"
     ),
 )
 
