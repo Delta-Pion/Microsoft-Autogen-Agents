@@ -8,11 +8,13 @@ import os
 
 load_dotenv()
 
+key = os.getenv("OPENROUTER_API_KEY")
+assert key is not None
 
 openrouter_gemini = OpenAIChatCompletionClient(
     model="google/gemini-2.0-flash-001",
     base_url="https://openrouter.ai/api/v1",
-    api_key=os.getenv("OPENROUTER_API_KEY"),
+    api_key=key,
     model_info=ModelInfo(
         vision=False, function_calling=True, json_output=False, family="unknown"
     ),
