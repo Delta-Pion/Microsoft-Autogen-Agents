@@ -35,9 +35,9 @@ Our agent-based solutions have potential applications in numerous fields, includ
 
 ## Getting Started
 
-*(Placeholder: Add instructions on how to set up, configure, and run the project here later)*
+*(Placeholder: instructions on how to set up, configure, and run the project here later)*
 
-```bash
+```python
 # Example setup commands
 pip install -r requirements.txt
 # Add other setup steps
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ## Contribution
 
-*(Placeholder: Add contribution guidelines if this is an open project)*
+*(Placeholder: contribution guidelines)*
 
 ---
 
